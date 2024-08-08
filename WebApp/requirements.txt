@@ -3,5 +3,4 @@ transformers == 3.3
 torch == 2.2.0
 scipy == 1.7.3
 werkzeug == 2.2.2
-waitress
-serve
+waitress == 3.0.0
