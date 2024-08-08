@@ -62,4 +62,4 @@ def predict():
     return render_template('index.html', prediction = message)
 
 if __name__ == '__main__':
-    serve(app, host="127.0.0.1", port=8080)
+    serve(app, host="127.0.0.1", port=8084)
