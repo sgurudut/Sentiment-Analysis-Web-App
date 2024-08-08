@@ -1,6 +1,8 @@
 # importing the required dependencies
 from flask import Flask, render_template, request
 
+from waitress import serve
+
 from transformers import AutoModelForSequenceClassification
 from transformers import AutoTokenizer
 import numpy as np
@@ -60,4 +62,4 @@ def predict():
     return render_template('index.html', prediction = message)
 
 if __name__ == '__main__':
-    waitress.serve(app, host="127.0.0.1", port=8080)
+    serve(app, host="127.0.0.1", port=8080)
