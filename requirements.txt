@@ -4,3 +4,4 @@ torch == 2.2.0
 scipy == 1.14.0
 werkzeug == 2.2.2
 waitress == 3.0.0
+tokenizers==0.10.3
