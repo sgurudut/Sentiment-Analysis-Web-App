@@ -5,3 +5,4 @@ werkzeug == 2.2.2
 waitress == 3.0.0
 transformers==4.0.0
 tokenizers==0.9.4
+pip == 24.2
